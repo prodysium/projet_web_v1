@@ -32,7 +32,6 @@ header {
     font-size: 3.8vw;
     margin-left: 0.15vw;
     margin-right: 0.1vw;
-    color: aliceblue;
     font-family: comfortaa, cursive;
 }
 
@@ -70,10 +69,11 @@ header {
     width: 5vw;
 }
 
-button {
+header button {
     background-color: rgba(0,0,0,0);
     border: 0;
     padding: 1.5vw;
+    color: aliceblue;
 }
 
 button:hover {
