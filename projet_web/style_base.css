@@ -69,18 +69,44 @@ header {
     width: 5vw;
 }
 
-header button {
+header a , header button{
     background-color: rgba(0,0,0,0);
     border: 0;
     padding: 1.5vw;
     color: aliceblue;
 }
 
-button:hover {
+a:hover , button:hover{
     background-color: rgba(0,0,0,0.5);
     border-radius: 200vw;
 }
 
 /*---------------fin header---------------*/
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
 
+body {
+    display : table;
+    width: 100%;
+}
+footer {
+    background-color: #303030;
+    color: aliceblue;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.2vw solid black;
+    border-top: 0.2vw solid black;
+    display : table-row;
+    height: 100px;
+    text-align: center;
+}
+footer div button{ background-color: rgba(0,0,0,0);
+    border: 0;
+    color: aliceblue;
+    padding: 0.25vw;
+    font-size: 0.75vw;
+}
 
