@@ -30,6 +30,7 @@ header {
     display: inline-flex;
     border-bottom: 0.2vw solid black;
     border-top: 0.2vw solid black;
+    position: fixed;
 }
 
 #titre {
